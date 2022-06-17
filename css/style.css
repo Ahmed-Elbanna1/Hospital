@@ -1,0 +1,270 @@
+main {
+    height: 1400px;
+}
+
+.up {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 282;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.navbar {
+    height: 80px;
+    /* transition: 1s; */
+    /* background-color: transparent !important; */
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.navbar li a:hover {
+    color: #0693e3 !important;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.slider {
+    height: 90vh;
+    background: #686a6b url(../images/bg2.jpg) no-repeat center/cover;
+    background-blend-mode: multiply;
+    /* position: relative; */
+}
+
+.slider h2 {
+    letter-spacing: 2px;
+}
+
+.slider p {
+    word-spacing: 1px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.under-slider {
+    min-height: 350px;
+    position: relative;
+    top: -70px;
+}
+
+.under-slider .row {
+    min-height: 350px;
+}
+
+.under-slider .row .col {
+    background: #0d579c;
+}
+
+.under-slider table tr {
+    height: 50px;
+    color: white !important;
+}
+
+.under-slider .row .col:nth-child(2) {
+    background: #0e6cc4;
+    /* height: 90%; */
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.how {
+    min-height: 350px;
+    background: #3d3f40 url(../images/who3.jpg) no-repeat top/cover fixed;
+    background-blend-mode: multiply;
+}
+
+.how .row {
+    min-height: 350px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.dept {
+    min-height: 780px;
+}
+
+.dept h1,
+.time h1,
+.galary h1,
+.stuff h1 {
+    color: #0e6cc4 !important;
+}
+
+.dept .row {
+    min-height: 650px;
+}
+
+.dept .row .col {
+    /* background-color: #f1f1f14b; */
+    height: 250px;
+}
+
+.dept i,
+.counter i {
+    font-size: 65px;
+    margin-block: 45px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.see a {
+    height: 39px;
+    width: 171px;
+    background: #0d579c !important;
+}
+
+.see i {
+    font-size: 15px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.time {
+    margin-top: 40px;
+    min-height: 500px;
+}
+
+.time table {
+    height: 300px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: #1278d879;
+    color: var(--bs-table-striped-color);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.counter {
+    min-height: 300px;
+    margin-top: 50px;
+    background: #ecedee71;
+}
+
+.counter .row {
+    min-height: 300px;
+}
+
+.counter .col {
+    height: 200px;
+    background: #0d579c !important;
+    color: white !important;
+}
+
+.counter i {
+    margin-block: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.galary {
+    min-height: 800px;
+    position: relative;
+}
+
+.galary .test {
+    height: 250px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.stuff {
+    min-height: 400px;
+    background: #ecedee71;
+    position: relative;
+}
+
+.stuff .row {
+    min-height: 300px;
+}
+
+.stuff .col {
+    height: 250px;
+}
+
+.flip-card {
+    background-color: transparent;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.flip-card h1 {
+    color: white !important;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: rgb(190, 190, 190);
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #0d579c;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.stuff i {
+    color: white !important;
+    font-size: 20px;
+}
+
+
+/* *------------------------------------------------------------------------------------------------ */
+
+.map {
+    min-height: 400px;
+}
+
+.map .test {
+    background-color: #0d579c;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+footer {
+    height: 50px;
+    background: #3d3f40;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
